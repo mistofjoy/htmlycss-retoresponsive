@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 220px;
+}
+
+.header-nav {
+    flex-grow: 1;
+}
+
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+main article {
+    width: 75%;
+}
+
+main p {
+    margin-right: 0px;
+}
+
+main h1 {
+    margin-right: 0px;
+}
+
+.ads {
+    width: 25%;
+    height: inherit;
+    margin: 12px 0px;
+    margin-right: 12px;
+}

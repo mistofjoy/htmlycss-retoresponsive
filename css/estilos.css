@@ -41,6 +41,8 @@ header > .logo {
 
 .header-nav {
     width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
 }
 
 .header-nav > ul {
@@ -51,12 +53,14 @@ header > .logo {
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .header-nav li {
     padding: 8px;
     border-radius: 4px;
     background-color: var(--primary-color);
+    margin: 4px 0px;
 }
 
 .header-nav a {
@@ -67,10 +71,12 @@ header > .logo {
 /*main*/
 main h1{
     font-size: 1.8rem;
+    margin: 0 12px;
 }
 
 main p{
     font-size: 1.6rem;
+    margin: 0 12px;
 }
 
 .main-nav {
@@ -84,6 +90,7 @@ main p{
     height: 50px;
     display: flex;
     align-items: center;
+    background-color: var(--primary-color);
 }
 
 .ads p {
@@ -96,7 +103,7 @@ main > section {
 
 article {
     margin: 12px auto;
-    max-width: 480px;
+    max-width: 440px;
 }
 
 /*footer*/
@@ -104,4 +111,6 @@ footer > p {
     font-size: 1.2rem;
     width: 100%;
     text-align: center;
+    background-color: var(--primary-color);
+    color: var(--background-color);
 }
