@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header > .logo {
+    width: 220px;
+}
+
+.logo p {
+    width: 220px;
+}
+
+.header-nav {
+    max-width: none;
+    width: auto;
+    flex-grow: 1;
+}
