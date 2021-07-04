@@ -1,4 +1,12 @@
 /*default*/
+:root {
+    --primary-color: #EC5800;
+    --secondary-color: orange;
+    --background-color: #FFC82A;
+    --title-size: 18px;
+    --text-size: 16px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -7,6 +15,7 @@
 
 html {
     font-size: 62.5%;
+    background-color: var(--background-color);
 }
 
 /*basic*/
@@ -27,6 +36,7 @@ header > .logo {
     margin: 0 auto;
     font-style: oblique;
     text-align: center;
+    color: var(--primary-color);
 }
 
 .header-nav {
@@ -39,10 +49,19 @@ header > .logo {
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
 
-nav a {
+.header-nav li {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+}
+
+.header-nav a {
     text-decoration: none;
+    color: var(--background-color);
 }
 
 /*main*/
@@ -62,6 +81,22 @@ main p{
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ads p {
+    margin: auto;
+}
+
+main > section {
+    width: 100%;
+}
+
+article {
+    margin: 12px auto;
+    max-width: 480px;
 }
 
 /*footer*/
