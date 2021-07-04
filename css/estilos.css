@@ -79,9 +79,11 @@ main p{
     margin: 0 12px;
 }
 
+/*Again, the unused nav
 .main-nav {
     display: none;
 }
+*/
 
 .ads {
     margin: 0 auto;
